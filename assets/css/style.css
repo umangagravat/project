@@ -1,0 +1,170 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .head{
+        width: 100%;
+        height: 7%;
+        border: 1px solid black;
+        padding-top: 5px;
+    }
+
+    .header{
+        background-color: #777777;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .reqbutton{
+        align-self: self-end;
+        background-color: #fd9b27;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration:none;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Montserrat, Arial;
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: 5px;
+    }
+
+    .information{
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+
+    .information a{
+        color: white;
+        text-decoration: none;
+        font-family: Open Sans,  Arial;
+        line-height: 20px;
+    }
+    #logo{
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    /* .responav a.islogo {
+        float: right;
+        display: block;
+    }
+
+    .responav .islogo {
+        position: absolute;
+        right: 0;
+        top: 0;
+    } */
+
+    .responav{
+        background-color: #777777;
+        display: flex;
+        flex-direction: column;
+    }
+    .responav a{
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-family: Montserrat, Arial;
+        margin-left: 40px; 
+        transition: 0.5s ease;
+    }
+
+    .nav{
+        display: none;
+    }
+
+
+@media only screen and (min-width:1020px){
+    .head{
+        height: 7%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header{
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 350px;
+    }
+
+    .reqbutton{
+        background-color: #fd9b27;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration:none;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Montserrat, Arial;
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: 0
+    }
+
+    .information a{
+        color: #777777;
+        font-weight: bold;
+        text-decoration: none;
+        line-height: 20px;
+    }
+
+    .nav{
+        background-color: #777777;
+        height: 45px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;  
+    }
+
+    .nav a{
+        margin-top: 0;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-family: Montserrat, Arial;
+        margin-left: 40px; 
+        transition: 0.5s ease;
+    }
+
+    .nav a:hover{
+        color:#fd9b27
+    }
+
+    .responav a{
+        display: none;
+    }
+
+    .islogo{
+        display: none;
+    }
+
+    .responsive{
+        display: none;
+    }
+
+    a .active{
+        color:#fd9b27 
+    }
+
+    /* .homeimg{
+        border: 1px solid black;
+        width: auto;
+        height: 80vh;
+    }
+
+    .homeimg img{
+        width: 100vh;
+        height: 100%;
+    } */
+}
