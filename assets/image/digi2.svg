@@ -1,0 +1,13 @@
+<svg id="pwa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="13.453" viewBox="0 0 36 13.453">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_49" data-name="Rectangle 49" width="36" height="13" fill="#25488e"/>
+    </clipPath>
+  </defs>
+  <path id="Path_631" data-name="Path 631" d="M147.021,0,143.3,8.692,140.648,0h-2.775L135.03,8.692l-2.006-3.96L131.21,10.3l1.842,3.153H136.6l2.57-7.8,2.452,7.8h3.56L150.631,0Z" transform="translate(-122.018)" fill="#25488e"/>
+  <g id="Group_47" data-name="Group 47">
+    <g id="Group_46" data-name="Group 46" clip-path="url(#clip-path)">
+      <path id="Path_632" data-name="Path 632" d="M3.418,8.833H5.635a6.544,6.544,0,0,0,1.8-.224L8,6.844,9.6,1.913a3.9,3.9,0,0,0-.42-.548A4.614,4.614,0,0,0,5.576,0H0V13.451H3.418ZM6.353,3.094a1.755,1.755,0,0,1,.482,1.3,1.919,1.919,0,0,1-.42,1.3A2.2,2.2,0,0,1,4.7,6.223H3.418V2.61h1.29a2.273,2.273,0,0,1,1.645.485M26.4,11.042l1.036-2.61h2.991L29.008,4.473,30.784,0l5.085,13.451h-3.75l-.869-2.409Z" fill="#25488e"/>
+    </g>
+  </g>
+</svg>
