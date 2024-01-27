@@ -50,17 +50,6 @@
         margin-left: 20px;
     }
 
-    /* .responav a.islogo {
-        float: right;
-        display: block;
-    }
-
-    .responav .islogo {
-        position: absolute;
-        right: 0;
-        top: 0;
-    } */
-
     .responav{
         background-color: #777777;
         display: flex;
@@ -149,9 +138,9 @@
         display: none;
     }
 
-    .responsive{
+    /* .responsive{
         display: none;
-    }
+    } */
 
     a .active{
         color:#fd9b27 
