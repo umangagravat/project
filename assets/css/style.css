@@ -333,8 +333,8 @@
     .testcontent{
         box-shadow: 5px 10px 8px #888888;
         background-color: white;
-        height: 150px;
-        padding: 80px;
+        height: 250px;
+        padding:20px;
         margin-top: 20px;
         text-align: center;
     }
@@ -345,6 +345,112 @@
         color: #222222;
     }
 
+    .studies{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .casestudies{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .casehead p{
+        font-family: Montserrat,Arial;
+        font-size: 20px;
+        color: #4f5869;
+        text-align: center;
+        font-weight: bold;
+        line-height: 3;
+    }
+
+    .studies .studiesimg{
+        width: 100%;
+        height: 90vh;
+        text-align: center;
+    }
+
+    .studiesimg p{
+        font-weight: bold;
+        text-align: left;
+        font-size: 18px;
+        font-family: Montserrat,Arial;
+        color: #4f5869;
+        margin: 0px 0px 23px;
+        padding: 28px 0px 0px;
+    }
+
+    .studiesimg img{
+        width: 85%;
+        height: auto;
+    }
+
+    .studiesimg a{
+        background-color: #4f5869;
+        color: white;
+        font-family: Montserrat,Arial;;
+        text-decoration: none;
+    }
+
+    .redbutton{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #4f5869;
+        width: 130px;
+        height: 30px;
+    } 
+
+    .blogcont{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .latestblog{
+        margin-top: 20px;
+        background-color: #f9f9f9;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .bloghead p{
+        margin-top: 30px;
+        font-family: Montserrat,Arial;
+        font-size: 20px;
+        color: #4f5869;
+        text-align: center;
+        font-weight: bold;
+        line-height: 3;
+    }
+
+    .blogcont .blogimg{
+        flex: 33%;
+        height: 55vh;
+        text-align: center;
+    }
+
+    .blogimg img{
+        width: 85%;
+        height: auto;
+    }
+
+    .blogimg p{
+        font-size: 16px;
+        font-family: Montserrat,Arial;
+        color: #4f5869;
+        font-weight: bold;
+        text-align: left;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .form{
+        background-color: aliceblue;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 
 
 @media only screen and (min-width:1020px){
@@ -473,7 +579,6 @@
     }
 
     .digital{
-        /* border: 1px solid black; */
         padding-left: 10%;
         padding-right: 10%;
     }
@@ -485,6 +590,86 @@
     .overimg{
         display: flex;
         flex-direction: row;
+    }
+
+    .testcontent{
+        box-shadow: 5px 10px 8px #888888;
+        background-color: white;
+        height: 130px;
+        padding: 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .studies{
+        flex-direction: row;
+    }
+
+    .studies{
+        margin-top: 50px;
+        display: flex;
+        flex-direction:row;
+    }
+
+    .casestudies{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .casehead p{
+        margin-top: 40px;
+        font-family: Montserrat,Arial;
+        font-size: 25px;
+        color: #4f5869;
+        text-align: center;
+        font-weight: bold;
+        line-height: 3;
+    }
+
+    .studies .studiesimg{
+        width: 33%;
+        height: 80vh;
+        text-align: center;
+    }
+
+    .studiesimg p{
+        font-weight: bold;
+        text-align: left;
+        font-size: 18px;
+        font-family: Montserrat,Arial;
+        color: #4f5869;
+        margin: 0px 0px 23px;
+        padding: 28px 15px 0px;
+    }
+
+    .studiesimg img{
+        width: 85%;
+        height: auto;
+    }
+
+    .blogcont{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .blogimg p{
+        font-size: 16px;
+        font-family: Montserrat,Arial;
+        color: #4f5869;
+        font-weight: bold;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .form{
+        background-color: aliceblue;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .latestblog{
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
 }
