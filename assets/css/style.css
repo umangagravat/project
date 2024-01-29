@@ -68,7 +68,7 @@
       right: 5%;
       width: 20px;
       top: 0;
-      background-color: black;
+      /* background-color: black; */
     } 
 
     .responav{
@@ -111,6 +111,16 @@
         font-size: 7vw;
         font-family: Montserrat, arial;
         font-weight: bold;      
+    }
+
+    .headcon{
+        position: absolute;
+        color: #ffffff;
+        top: 70%;
+        left: 5%;
+        font-size: 15px;
+        font-family: Montserrat, arial;
+        /* font-weight: bold;       */
     }
 
     .content{
@@ -245,6 +255,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 20px;
+        margin-left: 20px;
     }
 
     .digilist p{
@@ -337,6 +348,7 @@
         padding:20px;
         margin-top: 20px;
         text-align: center;
+        margin-bottom: 60px;
     }
 
     .testcontent p{
@@ -393,7 +405,6 @@
     }
 
     .redbutton{
-
         display: flex;
         align-items: center;
         justify-content: center;
@@ -452,6 +463,120 @@
         padding-right: 10%;
     }
 
+    .form P{
+        margin-top: 50px;
+        font-size: 16px;
+        font-family: Montserrat,Arial;
+        color: #4f5869;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .details{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .inputname{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputsub{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .details input{
+        margin-top: 30px;
+        border: none;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 15px;
+        row-gap: 10px;
+        outline: none;
+    }
+
+    .details textarea{
+        border: none;
+        height: 110px;
+        padding-left: 10px;
+        font-size: 15px;
+        margin-top: 30px;
+        outline: none;
+    }
+
+    .subbutton{
+        margin-top: 30px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        background-color:#002c6a;
+        width: 130px;
+        height: 40px;
+    }
+
+    .submit{
+        color: white;
+        padding: 10px;
+        font-family: Montserrat,Arial;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .webfoot{
+        background-color: #4f5869;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .foot{
+        flex: 25%;
+        margin-top: 40px;
+        color: #FFFFFF;
+        font-family: Montserrat,Arial;
+        margin-bottom: 20px;
+    }
+
+    .foot h4{
+        font-family: Montserrat,Arial;
+        padding: 15px 0px 15px 0px ;
+        color: #e8e8e8;
+    }
+
+    .foot p{
+        cursor: pointer;
+        font-weight: bold;
+        margin-top: 20px;
+        line-height: 26px;
+        transition: 0.5s ease;
+    }
+
+    .foot ul{
+        cursor: pointer;
+        font-weight: normal;
+        margin-top: 20px;
+        line-height: 30px;
+        padding: 0px 0px 0px 17px;
+    }
+
+    .foot ul li{
+        transition: 0.5s ease;
+    }
+
+    .foot ul li:hover{
+        color: #ff8a00;
+    }
+
+    .foot p:hover{
+        color: #ff8a00;
+    }
 
 @media only screen and (min-width:1020px){
     .head{
@@ -542,6 +667,9 @@
         position: absolute;
         top: 50%;
     }
+    .mediacon{
+     row-gap: 30px;
+    }
 
     .right{
         position: absolute;
@@ -557,6 +685,16 @@
         font-size: 3vw;
         font-family: Montserrat, arial;
         font-weight: bold;      
+    }
+
+    .headcon{
+        position: absolute;
+        color: #ffffff;
+        top: 90%;
+        left: 5%;
+        font-size: 20px;
+        font-family: Montserrat, arial;
+        /* font-weight: bold;       */
     }
 
     .whyisu{
@@ -599,6 +737,7 @@
         padding: 50px;
         margin-top: 20px;
         text-align: center;
+        margin-bottom: 60px;
     }
 
     .studies{
@@ -671,5 +810,44 @@
         padding-left: 10%;
         padding-right: 10%;
     }
+
+    .details{
+        margin-top: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .inputname{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputsub{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .webfoot{
+        background-color: #4f5869;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .foot{
+        flex: 25%;
+        margin-top: 50px;
+        color: #FFFFFF;
+        height: 50%;
+        font-family: Montserrat,Arial;
+        margin-bottom: 50px;
+    }
+
 
 }
