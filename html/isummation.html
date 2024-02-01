@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="Stylesheet" href="../assets/css/style.css" />
     <title>Isummation Technology</title>
-    <script>
+    <!-- <script>
+        console.log(new Date);
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "responav") {
@@ -16,7 +17,7 @@
                 x.className = "responav";
             }
         }
-    </script>
+    </script> -->
 </head>
 
 <body>
@@ -26,13 +27,13 @@
                 <div class="icon">
                     <img id="logo" src="../assets/image/iSum_logo.png" />
                     <div class="responav" id="myTopnav">
-                        <a href="#home" class="active">HOME</a>
+                        <!-- <a href="#home" class="active">HOME</a>
                         <a href="#what">WHAT WE DO</a>
                         <a href="#technology">TECHNOLOGY</a>
                         <a href="#work">WE WORK WITH</a>
                         <a href="#blog">BLOG</a>
                         <a href="#about">ABOUT US</a>
-                        <a href="#getit">GET IN TOUCH</a>
+                        <a href="#getit">GET IN TOUCH</a> -->
                         <a class="islogo" onclick="myFunction()">
                             <i class="fa-solid fa-bars" style="color: #808080;"></i>
                         </a>
@@ -44,9 +45,13 @@
                 <div class="reqbutton">
                     <a href="#" style="color: black; text-decoration: none;">Request a Quote</a>
                 </div>
-                <div class="information">
-                    <a href="mailto:info@isummation.com">info@isummation.com</a>
-                    <a href="phone:123456789">+0123456789</a>
+                <div class="information" style="width: 80%;">
+                    <div>
+                    <img src="/assets/image/email.png" width="20px" height="20px"><a href="mailto:info@isummation.com">info@isummation.com</a>
+                    </div>
+                    <div>
+                    <img src="/assets/image/usa.png" width="20px" height="20px"><a href="phone:123456789">+0123456789</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -71,12 +76,12 @@
             <div class="headcontent">
                 <p>Digital Smart Solution</p>
             </div>
-            <!-- <div class="left">
-                <i class="fa-solid fa-arrow-right fa-flip-horizontal fa-2xl" style="color: #ffffff;"></i>
+            <div class="left">
+                <i class="fa-solid fa-greater-than fa-flip-horizontal" style="color: #bcbcbc;"></i>
             </div>
             <div class="right">
-                <i class="fa-solid fa-arrow-right fa-2xl" style="color: #ffffff;"></i>
-            </div> -->
+                <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #bcbcbc"></i>
+            </div>
             <div class="headcon">
                 <p>Get intuitive top notch Smart Solution for all Mobile, Web, Wearable platform for digital transformation need of your business goals </p>
             </div>
@@ -113,6 +118,7 @@
         <div class="tech">
             <div class="technology">
                 <p>Technology</p>
+                <div class="capsule"></div>
             </div>
             <div class="techlogo">
                 <div class="telogo">
@@ -138,6 +144,7 @@
         <div class="digital">
             <div class="dihead">
                 <p>Digtal Engineering Services</p>
+                <div class="capsule"></div>
             </div>
             <div class="digitalcontent">
                 <div class="digimg">
@@ -189,6 +196,7 @@
         <div class="over">
             <div class="overhead">
                 <p>Over two decades of Digital Transformation</p>
+                <div class="capsule"></div>
             </div>
             <div class="overcontent">
                 <p>Our skilled expertise in digital engineering make us one of a kind in the global digital universe. And to keep the desire alive of serving quality outcomes tailored according to your ideas, we have magnified our strength by maximizing the workforce in software engineering, and indeed it helps us to encourage new growth overtime. Being working with digital IT technologies for decades working on small, medium, and large scale projects, we have accomplished numerous organization’s goals across the globe.</p>
@@ -212,6 +220,13 @@
         <div class="testimonials">
             <div class="testhead">
                 <P>testimonials</P>
+                <div class="capsule"></div>
+                <div class="tleft">
+                    <i class="fa-solid fa-greater-than fa-flip-horizontal" style="color: #2b2b2b;"></i>
+                </div>
+                <div class="tright">
+                    <i class="fa-solid fa-greater-than" style="color: #2b2b2b"></i>
+                </div>
             </div>
             <div class="testcontent">
                 <p>It was wonderful to work with Pritesh and his team at iSummation. Right from execution phase he took the project at every next level as required and project was timely and flawlessly completed, technically exepert and timely supportive.</p>
@@ -222,6 +237,7 @@
         <div class="casestudies">
             <div class="casehead">
                 <p>Case Studies</p>
+                <div class="capsule"></div>
             </div>
             <div class="studies">
                 <div class="studiesimg">
@@ -253,6 +269,7 @@
             <div class="latestblog">
                 <div class="bloghead">
                     <p>Latest Blog</p>
+                    <div class="capsule"></div>
                 </div>
                 <div class="blogcont">
                     <div class="blogimg">
@@ -316,41 +333,52 @@
                     <h4>DIGITAL SOLUTIONS</h4>
                     <hr>
                     <ul>
-                        <li>Cross-platforms</li>
-                        <li>Mobile Commerce</li>
-                        <li>Progressive Web App</li>
-                        <li>Mobile App</li>
-                        <li>Node.js Development</li>
-                        <li>Reactjs Development</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Cross-platforms</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Mobile Commerce</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Progressive Web App</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Mobile App</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Node.js Development</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Reactjs Development</li>
                     </ul>
                 </div>
                 <div class="foot">
                     <h4>ENGINEERING</h4>
                     <hr>
                     <ul>
-                        <li>Software Product</li>
-                        <li>IoT Development</li>
-                        <li>Blockchain Development</li>
-                        <li>Data Science Services</li>
-                        <li>Hire Software Engineers</li>
-                        <li>Artificial Intelligence</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Software Product</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>IoT Development</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Blockchain Development</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Data Science Services</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Hire Software Engineers</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Artificial Intelligence</li>
                     </ul>
                 </div>
                 <div class="foot">
                     <h4>ENTERPRISE</h4>
                     <hr>
                     <ul>
-                        <li>IT Outsourcing</li>
-                        <li>Power BI Development</li>
-                        <li>Power Apps Development</li>
-                        <li>BIG Data Solution</li>
-                        <li>Enterprise App</li>
-                        <li>Cloud Consulting</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>IT Outsourcing</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Power BI Development</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Power Apps Development</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>BIG Data Solution</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Enterprise App</li>
+                        <li> <i class="fa-solid fa-greater-than" style="margin-right: 5px; color: #fd9b27"></i>Cloud Consulting</li>
                     </ul>
                 </div>
             </div>
             <hr>
-            <p style="color: white; padding: 20px 0px 20px 0px; font-family: Open Sans,Arial;">© 2024 iSummation Technologies Pvt. Ltd All rights reserved | Terms | Privacy | Cookies</p>
+            <div class="ismedia">
+                <div>
+                    <p style="color: white; padding: 20px 0px 20px 0px; font-family: Open Sans,Arial;">© 2024 iSummation Technologies Pvt. Ltd All rights reserved | Terms | Privacy | Cookies</p>
+                </div>
+                <div class="isMediaIcon">
+                    <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                </div>
+            </div>    
         </div>
         </div>
     </div>
